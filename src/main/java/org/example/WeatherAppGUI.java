@@ -95,11 +95,11 @@ public class WeatherAppGUI extends JFrame {
             return;
         }
 
-        // Show loading status
+        
         statusLabel.setText("Fetching weather data...");
         weatherDisplay.setText("");
 
-        // Run API call in background
+        
         SwingWorker<String, Void> worker = new SwingWorker<String, Void>() {
             @Override
             protected String doInBackground() throws Exception {
