@@ -13,7 +13,7 @@ import java.util.Map;
 import org.json.JSONObject;
 
 public class WeatherAppGUI extends JFrame {
-    private static final String API_KEY = "9e7944d89d5ab246ea6b7514da2e13ae";
+    private static final String API_KEY = "";
     private static final String BASE_URL = "https://api.openweathermap.org/data/2.5/weather?q=";
 
     private JTextField cityInput;
